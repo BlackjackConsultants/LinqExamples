@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d8068371-bb4b-47a3-88bd-ac319b19a5a5" name="Jorge.Perez@INVTMIAWSDV13 2011-06-09 15:13:31" runUser="INTERNAL\Jorge.Perez" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="09d6fe09-d66b-439c-ae29-c3c51291b326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jorge.Perez_INVTMIAWSDV13 2011-06-09 15_13_31" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-09T15:13:31.6003060-04:00" queuing="2011-06-09T15:13:32.6313060-04:00" start="2011-06-09T15:13:32.7873060-04:00" finish="2011-06-09T15:13:35.5683060-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="INVTMIAWSDV13" outcome="Error" timestamp="2011-06-09T15:13:35.5673060-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QueryListUsingQueryExpressions" storage="c:\jorge\jorgeprg\c_sharp\examples\ling_examples\ling_examples\bin\debug\ling_examples.dll" id="99b79b9e-6ff0-4e32-3cdf-fd66f206879b">
+      <Execution id="7085a8fe-0e15-4251-ba0e-d632e2d9cb3e" />
+      <TestMethod codeBase="C:/Jorge/jorgeprg/C_Sharp/Examples/LING_Examples/LING_Examples/bin/Debug/LING_Examples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LING_Examples.QueryLists, LING_Examples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryListUsingQueryExpressions" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="99b79b9e-6ff0-4e32-3cdf-fd66f206879b" executionId="7085a8fe-0e15-4251-ba0e-d632e2d9cb3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7085a8fe-0e15-4251-ba0e-d632e2d9cb3e" testId="99b79b9e-6ff0-4e32-3cdf-fd66f206879b" testName="QueryListUsingQueryExpressions" computerName="INVTMIAWSDV13" duration="00:00:02.6180000" startTime="2011-06-09T15:13:32.9493060-04:00" endTime="2011-06-09T15:13:35.5673060-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7085a8fe-0e15-4251-ba0e-d632e2d9cb3e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

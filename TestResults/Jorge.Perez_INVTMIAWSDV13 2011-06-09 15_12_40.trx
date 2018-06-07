@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="47cadd58-d800-4f74-a8cf-c109ea7cf058" name="Jorge.Perez@INVTMIAWSDV13 2011-06-09 15:12:40" runUser="INTERNAL\Jorge.Perez" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="09d6fe09-d66b-439c-ae29-c3c51291b326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jorge.Perez_INVTMIAWSDV13 2011-06-09 15_12_40" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-09T15:12:40.3093060-04:00" queuing="2011-06-09T15:12:41.3123060-04:00" start="2011-06-09T15:12:41.4703060-04:00" finish="2011-06-09T15:13:20.5123060-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QueryListUsingExplicitSyntax" storage="c:\jorge\jorgeprg\c_sharp\examples\ling_examples\ling_examples\bin\debug\ling_examples.dll" id="93700bc6-5390-d5df-e1ae-26e24f167ed1">
+      <Execution id="0bd15729-0d84-43ae-b3ce-1e81465ab220" />
+      <TestMethod codeBase="C:/Jorge/jorgeprg/C_Sharp/Examples/LING_Examples/LING_Examples/bin/Debug/LING_Examples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LING_Examples.QueryLists, LING_Examples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryListUsingExplicitSyntax" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="93700bc6-5390-d5df-e1ae-26e24f167ed1" executionId="0bd15729-0d84-43ae-b3ce-1e81465ab220" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0bd15729-0d84-43ae-b3ce-1e81465ab220" testId="93700bc6-5390-d5df-e1ae-26e24f167ed1" testName="QueryListUsingExplicitSyntax" computerName="INVTMIAWSDV13" duration="00:00:38.3392150" startTime="2011-06-09T15:12:41.6173060-04:00" endTime="2011-06-09T15:13:20.4743060-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bd15729-0d84-43ae-b3ce-1e81465ab220">
+      <Output>
+        <DebugTrace>BURKE
+DAVID
+FRANK
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

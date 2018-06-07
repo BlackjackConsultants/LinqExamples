@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b606fc1a-9fd2-4e9e-8ec2-eb5cab057bce" name="Jorge.Perez@INVTMIAWSDV13 2011-06-09 15:31:04" runUser="INTERNAL\Jorge.Perez" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="09d6fe09-d66b-439c-ae29-c3c51291b326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jorge.Perez_INVTMIAWSDV13 2011-06-09 15_31_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-09T15:31:04.6993060-04:00" queuing="2011-06-09T15:31:05.9003060-04:00" start="2011-06-09T15:31:06.0313060-04:00" finish="2011-06-09T15:31:12.4673060-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QueryListUsingQueryExpressions" storage="c:\jorge\jorgeprg\c_sharp\examples\linq_examples\linq_examples\bin\debug\ling_examples.dll" id="99b79b9e-6ff0-4e32-3cdf-fd66f206879b">
+      <Execution id="b5ed79fc-97e9-4f53-9cd3-48e8bb705294" />
+      <TestMethod codeBase="C:/Jorge/jorgeprg/C_Sharp/Examples/LINQ_Examples/LINQ_Examples/bin/Debug/LING_Examples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LING_Examples.QueryLists, LING_Examples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryListUsingQueryExpressions" />
+    </UnitTest>
+    <UnitTest name="QueryListUsingExplicitSyntax" storage="c:\jorge\jorgeprg\c_sharp\examples\linq_examples\linq_examples\bin\debug\ling_examples.dll" id="93700bc6-5390-d5df-e1ae-26e24f167ed1">
+      <Execution id="b77d8ed6-213e-4eb8-bb4e-72ee68d3cab2" />
+      <TestMethod codeBase="C:/Jorge/jorgeprg/C_Sharp/Examples/LINQ_Examples/LINQ_Examples/bin/Debug/LING_Examples.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LING_Examples.QueryLists, LING_Examples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueryListUsingExplicitSyntax" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="93700bc6-5390-d5df-e1ae-26e24f167ed1" executionId="b77d8ed6-213e-4eb8-bb4e-72ee68d3cab2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99b79b9e-6ff0-4e32-3cdf-fd66f206879b" executionId="b5ed79fc-97e9-4f53-9cd3-48e8bb705294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b77d8ed6-213e-4eb8-bb4e-72ee68d3cab2" testId="93700bc6-5390-d5df-e1ae-26e24f167ed1" testName="QueryListUsingExplicitSyntax" computerName="INVTMIAWSDV13" duration="00:00:05.1360723" startTime="2011-06-09T15:31:06.1523060-04:00" endTime="2011-06-09T15:31:12.4053060-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b77d8ed6-213e-4eb8-bb4e-72ee68d3cab2">
+      <Output>
+        <DebugTrace>BURKE
+DAVID
+FRANK
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5ed79fc-97e9-4f53-9cd3-48e8bb705294" testId="99b79b9e-6ff0-4e32-3cdf-fd66f206879b" testName="QueryListUsingQueryExpressions" computerName="INVTMIAWSDV13" duration="00:00:00.0030810" startTime="2011-06-09T15:31:12.4093060-04:00" endTime="2011-06-09T15:31:12.4183060-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5ed79fc-97e9-4f53-9cd3-48e8bb705294">
+      <Output>
+        <DebugTrace>BURKE
+DAVID
+FRANK
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
